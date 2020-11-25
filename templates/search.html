@@ -1,0 +1,21 @@
+{% extends 'base.html'%}
+{% block head%}
+<title>Main</title>
+{% endblock%}
+
+
+{% block body%}
+<h1>Song Scrapper</h1>
+<form action="/search" method="POST">
+Search: <input type="text" name="song" id="song">
+<input type="submit" value="Post">
+</form>
+<br>
+<br>
+
+
+<a href="{{value}}">{{kvalue}}</a>
+
+
+
+{% endblock%}
